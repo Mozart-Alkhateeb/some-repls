@@ -19,7 +19,7 @@ export class LinkedList {
     const newNode = new Node(value);
     this.tail.next = newNode;
     this.tail = newNode;
-    this.length ++;
+    this.length++;
     return this;
   }
 
@@ -27,19 +27,19 @@ export class LinkedList {
     const newNode = new Node(value);
     newNode.next = this.head;
     this.head = newNode;
-    this.length ++;
+    this.length++;
     return this;
   }
 
   insert(index, value) {
-   
+
     let newNode = new Node(value);
     let leader = this.traverseToIndex(index - 1);
 
     newNode.next = leader.next;
     leader.next = newNode;
 
-    this.length ++;
+    this.length++;
   }
 
   remove(index) {
@@ -47,10 +47,10 @@ export class LinkedList {
     leader.next = leader.next.next;
   }
 
-  traverseToIndex(index){
+  traverseToIndex(index) {
     let i = 0;
     let currentNode = this.head;
-    while(i < index) {
+    while (i < index) {
       currentNode = currentNode.next;
       i++;
     }

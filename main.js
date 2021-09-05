@@ -1,3 +1,3 @@
-import { TestLinkedList } from './linked_list.js';
+import { TestLinkedList } from './data_structures/linked_list.js';
 
 TestLinkedList();
