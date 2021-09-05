@@ -1,6 +1,21 @@
 {
+  "name": "some-repls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js"
-  }
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozart-Alkhateeb/some-repls.git"
+  },
+  "author": "Mozart Alkhateeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mozart-Alkhateeb/some-repls/issues"
+  },
+  "homepage": "https://github.com/Mozart-Alkhateeb/some-repls#readme"
 }
